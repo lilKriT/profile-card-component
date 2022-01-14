@@ -20,3 +20,28 @@ html {
 body {
     font-size: 1.8em;
 }
+
+#card-section {
+    background: var(--dark-cyan);
+    min-height: 100vh;
+    position: relative;
+    overflow:hidden;
+}
+
+#card-top-circle, #card-bottom-circle {
+    position: absolute;
+    
+}
+
+#card-top-circle {
+    top: -50%;
+    width: 50%;
+    height: auto;
+}
+
+#card-bottom-circle {
+    bottom: -50%;
+    right: 0;
+    width: 50%;
+    height: auto;
+}
