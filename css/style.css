@@ -30,7 +30,6 @@ body {
 
 #card-top-circle, #card-bottom-circle {
     position: absolute;
-    
 }
 
 #card-top-circle {
@@ -42,6 +41,34 @@ body {
 #card-bottom-circle {
     bottom: -50%;
     right: 0;
-    width: 50%;
+    width: 60%;
     height: auto;
+}
+
+#card-section {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    z-index: 1;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 30%;
+
+    border-radius: 20px;
+}
+
+.card-background-img {
+    background-image: url("/img/bg-pattern-card.svg");
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.card-background-img img {
+    border-radius: 50%;
+    border: 4px #fff solid;
+    transform: translate(-50%, -50%);
 }
