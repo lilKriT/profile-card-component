@@ -19,6 +19,7 @@ html {
 
 body {
     font-size: 1.8em;
+    font-family: "Kumbh Sans", sans-serif;
 }
 
 #card-section {
@@ -74,4 +75,23 @@ body {
     position: absolute;
     top: 100%;
     left: 50%;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    min-height: 10em;
+}
+
+.card-stats {
+    height: 6em;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border-top: 1px solid var(--dark-gray);
 }
