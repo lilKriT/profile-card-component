@@ -88,15 +88,20 @@ body {
 
 .card-name {
     display: inline;
+    color: var(--very-dark-desaturated-blue);
 }
 
 .card-age {
     color: var(--dark-gray);
     display: inline;
+    font-size: 2.4rem;
+    margin-left: .5rem;
 }
 
 .card-city {
     color: var(--dark-gray);
+    margin-top: 1.5rem;
+    font-size: 2rem;
 }
 
 .card-stats {
@@ -119,4 +124,7 @@ body {
 
 .card-counter p {
     text-transform: capitalize;
+    letter-spacing: 2px;
+    color: var(--dark-gray);
+    font-size: 1.6rem;
 }
