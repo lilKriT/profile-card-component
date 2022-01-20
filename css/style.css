@@ -128,3 +128,10 @@ body {
     color: var(--dark-gray);
     font-size: 1.6rem;
 }
+
+@media (max-width: 750px) {
+    .card {
+        width: 80%;
+        margin: 5rem auto;
+    }
+}
